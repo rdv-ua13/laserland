@@ -1,0 +1,19 @@
+/* Подключение стилей проекта */
+@import "helpers/fonts";
+@import "helpers/transition";
+
+/* ============= common ============= */
+@import "components/common";
+/* ============= //common ============= */
+
+/* ============= header ============= */
+@import "components/header";
+/* ============= //header ============= */
+
+/* ============= main ============= */
+@import "components/main";
+/* ============= //main ============= */
+
+/* ============= footer ============= */
+@import "components/footer";
+/* ============= //footer ============= */

@@ -1,0 +1,58 @@
+.footer {
+	position: relative;
+	flex: 0 0 auto;
+	min-width: 320px;
+	border-top: 1px solid var(--blue-color);
+	background: url("/build/img/bgi-footer.png") no-repeat center/cover var(--white-color);
+
+	& .logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	& .logo img {
+		display: block;
+	}
+	&__copyright {
+		color: var(--grey-color);
+		text-align: center;
+		font-family: "Intro Book", sans-serif;
+	}
+	&__copyright p {
+		margin: 0!important;
+	}
+}
+@media (max-width: 767.98px) {
+	.footer {
+		padding-top: 35px;
+		padding-bottom: 12px;
+
+		& .logo img {
+			min-width: 87px;
+			width: 87px;
+			min-height: 53px;
+			height: 53px;
+		}
+		&__copyright {
+			font-size: 14px;
+			line-height: 17px;
+		}
+	}
+}
+@media (min-width: 768px) {
+	.footer {
+		padding-top: 90px;
+		padding-bottom: 50px;
+
+		& .logo img {
+			min-width: 148px;
+			width: 148px;
+			min-height: 90px;
+			height: 90px;
+		}
+		&__copyright {
+			font-size: 24px;
+			line-height: 30px;
+		}
+	}
+}

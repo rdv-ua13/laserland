@@ -1,0 +1,146 @@
+.header {
+	z-index: 2;
+	position: relative;
+	top: 0;
+	min-width: 320px;
+	width: 100%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.15);
+	background: url("/build/img/bgi-header.png") no-repeat center/cover var(--white-color);
+
+	& .logo,
+	& .logo img {
+		display: inline-block;
+	}
+	&__address {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 100%;
+	}
+	&__address p {
+		margin: 0;
+		font-weight: 300;
+	}
+	&__contacts,
+	&__contacts-wrapper,
+	&__contacts-item {
+		display: flex;
+	}
+	&__contacts {
+		justify-content: flex-end;
+		align-items: center;
+		min-height: 100%;
+		height: 100%;
+	}
+	&__contacts-item {
+		align-items: flex-end;
+	}
+	&__contacts-tel {
+		font-weight: 500;
+	}
+	&__contacts-item:not(:first-of-type) span {
+		white-space: nowrap;
+	}
+	&__contacts-btn {
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+@media (max-width: 374.98px) {
+	.header {
+		&__item:first-of-type {
+			flex: 0 0 25%;
+			max-width: 25%;
+		}
+		&__item:last-of-type {
+			flex: 0 0 75%;
+			max-width: 75%;
+		}
+		&__contacts-btn .btn {
+			padding-right: 10px;
+			padding-left: 10px;
+			font-size: 11px;
+		}
+	}
+}
+@media (max-width: 767.98px) {
+	.header {
+		padding-top: 5px;
+		padding-bottom: 5px;
+
+		& .logo img {
+			min-width: 65px;
+			width: 65px;
+			min-height: 40px;
+			height: 40px;
+		}
+		&__contacts-wrapper {
+			justify-content: flex-end;
+			margin-right: -15px;
+			margin-left: -15px;
+		}
+		&__contacts {
+			flex-wrap: nowrap;
+		}
+		&__contacts-item:not(:last-child) {
+			margin-right: 15px;
+		}
+		&__contacts-btn-wrapper {
+			flex-grow: 0;
+		}
+		&__contacts-btn .btn {
+			font-weight: 400;
+		}
+	}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.header {
+		&__contacts-tel {
+			font-size: 26px;
+			line-height: 1.2;
+		}
+		&__contacts .btn {
+			min-width: 240px;
+			width: 240px;
+		}
+	}
+}
+@media (min-width: 768px) {
+	.header {
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+		& .logo img {
+			min-width: 148px;
+			width: 148px;
+			min-height: 90px;
+			height: 90px;
+		}
+		&__contacts-wrapper {
+			flex-wrap: wrap;
+		}
+		&__contacts-item {
+			flex: 1 0 100%;
+		}
+		&__contacts-item:first-of-type {
+			margin-bottom: 4px;
+		}
+		&__contacts-tel {
+			font-weight: 500;
+		}
+	}
+}
+@media (min-width: 992px) {
+	.header {
+		&__contacts-item {
+			justify-content: flex-end;
+		}
+		&__contacts-tel {
+			font-size: 30px;
+		}
+		&__contacts .btn {
+			min-width: 270px;
+			width: 270px;
+		}
+	}
+}

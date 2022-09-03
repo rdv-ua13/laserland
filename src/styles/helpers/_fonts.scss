@@ -1,0 +1,91 @@
+@font-face {
+	font-family: 'Akzidenz-Grotesk Pro';
+	src: url('/build/fonts/akzidenzgroteskpro_light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Akzidenz-Grotesk Pro';
+	src: url('/build/fonts/akzidenzgroteskpro_regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Akzidenz-Grotesk Pro';
+	src: url('/build/fonts/akzidenzgroteskpro_md.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Akzidenz-Grotesk Pro';
+	src: url('/build/fonts/akzidenzgroteskpro_bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Akzidenz-Grotesk Pro';
+	src: url('/build/fonts/akzidenzgroteskpro_super.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Intro';
+	src: url('/build/fonts/Intro-Black.eot');
+	src: local('/build/fonts/Intro Black'), local('/build/fonts/Intro-Black'),
+	url('/build/fonts/Intro-Black.eot?#iefix') format('embedded-opentype'),
+	url('/build/fonts/Intro-Black.woff') format('woff'),
+	url('/build/fonts/Intro-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Intro';
+	src: url('/build/fonts/Intro-Bold.eot');
+	src: local('/build/fonts/Intro Bold'), local('/build/fonts/Intro-Bold'),
+	url('/build/fonts/Intro-Bold.eot?#iefix') format('embedded-opentype'),
+	url('/build/fonts/Intro-Bold.woff') format('woff'),
+	url('/build/fonts/Intro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Intro Bold Caps';
+	src: url('/build/fonts/Intro-Bold-Caps.eot');
+	src: local('/build/fonts/Intro Bold Caps'), local('/build/fonts/Intro-Bold-Caps'),
+	url('/build/fonts/Intro-Bold-Caps.eot?#iefix') format('embedded-opentype'),
+	url('/build/fonts/Intro-Bold-Caps.woff') format('woff'),
+	url('/build/fonts/Intro-Bold-Caps.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Intro Book';
+	src: url('/build/fonts/Intro-Book.eot');
+	src: local('/build/fonts/Intro Book'), local('/build/fonts/Intro-Book'),
+	url('/build/fonts/Intro-Book.eot?#iefix') format('embedded-opentype'),
+	url('/build/fonts/Intro-Book.woff') format('woff'),
+	url('/build/fonts/Intro-Book.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Intro Book Caps';
+	src: url('/build/fonts/Intro-Book-Caps.eot');
+	src: local('/build/fonts/Intro Book Caps'), local('/build/fonts/Intro-Book-Caps'),
+	url('/build/fonts/Intro-Book-Caps.eot?#iefix') format('embedded-opentype'),
+	url('/build/fonts/Intro-Book-Caps.woff') format('woff'),
+	url('/build/fonts/Intro-Book-Caps.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
